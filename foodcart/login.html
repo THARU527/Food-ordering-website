@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:#81eb40;
+    height:40px;
+}
+.icon{
+    margin-top: 10px;
+   margin-left: 130px;
+}
+.icon img{
+    width:20px;
+    height:20px;
+    padding-left:10px;
+   
+}
+.profile{
+    margin-right: 0px;
+    position: absolute;
+    right:16px;
+    top:10px;
+}
+
+header .nav{
+    margin-top:10px;
+    word-spacing: 15px;
+    text-decoration: none;
+    margin-left: -70px;
+}
+header .nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color:rgb(252, 253, 251);
+}
+body{
+    background-color: white;
+}
+.box img{
+   width:1220px;
+   height: 600px;
+   padding: 35px;
+   background-blend-mode: color-burn;
+}
+.box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("images/juice.jpg");
+    height: 600px;
+    width:1220px;
+    margin-left: 60px;
+    margin-top: 50px;
+    background-blend-mode: lighten;
+}
+</style>
+</head>
+<body>
+     <header>
+        <img src="images/food.png" alt="" width="100px" height="40px">
+        <div class="nav">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="">Gallery</a>
+            <a href="">Order</a>
+        </div>
+        <div class="icon"> 
+        <a href="#"><img src="images/magnifying-glass.png" alt=""> </a>
+
+        <a href="#"><img src="images/favourite.png" alt=""></a>
+        <a href="index.html"><img src="images/shopping-cart.png" alt=""></a> 
+    </div>
+    <div class="profile"><img src="images/user.png" alt="" width="20px" height="20px"></div>
+    </header>
+    
+    <section>
+        <div class="box">
+            <form>
+    <h1>LOGIN</h1>
+    <p>Doesn't have an account? Sign up</p>
+    <label for="email">E-mail Address</label><br>
+    <input type="email"><br>
+    <label for="pw">Password</label><br>
+    <input type="password">
+    <p>Forget password</p>
+    <button>Login</button><br>
+    <button>Google</button><button>Facebook</button>
+</form>
+    </div>
+   </section>
+    </body>
+    </html>

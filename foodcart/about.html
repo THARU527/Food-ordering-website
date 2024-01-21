@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        *{
+            margin:0;
+            padding:0;
+        
+        }
+        body{
+        background-image: url('images/ab.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+}
+      header{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            background-color: white;
+            height:40px;
+            position:static;
+        }
+        .icon{
+            margin-top: 10px;
+           margin-left: 130px;
+        }
+        .icon img{
+            width:20px;
+            height:20px;
+            padding-left:10px;
+           
+        }
+        
+        header .nav{
+            margin-top:10px;
+            word-spacing: 15px;
+            text-decoration: none;
+            margin-left: -70px;
+        }
+        header .nav a{
+            text-decoration: none;
+            color: black;
+        }
+        .profile{
+    margin-right: 0px;
+    position: absolute;
+    right:16px;
+    top:10px;
+}
+.col{
+    display: flex;
+    margin-left: 50px;
+}
+.col img{
+    width:400px;
+    height: 200px;
+    margin-top: -30px;
+    margin-left: 38px;
+}
+h3{
+    padding: 40px;
+    margin-left: 50px;
+}
+.col p{
+    text-align:justify;
+    padding: 20px;
+    margin-right: 400px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+h1{
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    margin-top: -300px;
+    margin-left: 1200px;
+    font-size: xx-large;
+    
+}
+   
+
+@media(max-width:767px){
+
+}
+        </style>
+</head>
+<body>
+    <header>
+        <img src="images/food.png" alt="" width="100px" height="40px">
+        <div class="nav">
+            <a href="home.html">Home</a>
+            <a href="">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="">Gallery</a>
+            <a href="">Order</a>
+        </div>
+        <div class="icon"> 
+        <a href="#"><img src="images/magnifying-glass.png" alt=""></a>
+        <a href="#"><img src="images/favourite.png" alt=""></a>
+        <a href="index.html"><img src="images/shopping-cart.png" alt=""></a> 
+    </div>
+    <div class="profile"><img src="images/user.png" alt="" width="20px" height="20px"></div>
+    </header>
+    <section>
+  
+        <h3>Delivery Service</h3>
+        <div class="col">
+    <img src="images/deli.png" alt="">
+    <p>We understand that your time is valuable, which is why we strive to provide seamless and reliable delivery service. Our dedicated delivery personnel are trained to ensure that your food reaches you piping hot and in perfect condition. We work diligently to guarantee a smooth and hassle-free experience from start to finish.</p>
+  </div>
+         
+    <h3>Healthy Food</h3>
+    <div class="col">
+    <img src="images/deli.png" alt="">
+    <p>We take pride in our eco-friendly packaging, which is not only aesthetically pleasing but also sustainable. We endeavor to minimize our carbon footprint by using recyclable and biodegradable materials wherever possible.Your health and satisfaction are important to us. We value your feedback and continuously strive to improve our offerings based on your preferences. </p>
+    
+</div> 
+
+    <h3>Our Team</h3>
+    <div class="col">
+    <img src="images/team.jpg" alt="">
+    <p> Our friendly and attentive front-of-house team is here to make your dining experience comfortable and enjoyable from the moment you step through our doors.Our customer support team is available to address any inquiries or concerns you may have regarding our services or your orders.our team is committed to providing you with a memorable dining experience that combines exceptional food, warm hospitality, and a welcoming ambiance.</p>
+    </div> 
+    <h1>About Us</h1>
+    
+    </section>
+</body>
+</html>
